@@ -1,0 +1,244 @@
+*{/* h1{
+    color: blue;
+    font-family: "roboto", "sans-serif";
+    font-size: 5rem;
+} */
+
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+.full-content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* <!-- ---------call to action start---------- --> */
+.txt-box{
+    margin-left: 80px;
+}
+
+.txt-box h1{
+    color: #1877f2;
+    font-size: 5rem;
+    font-family: "roboto";
+}
+
+.txt-box p{
+    font-family: "roboto";
+    white-space: nowrap;
+    font-size: 1.75rem;
+    color: rgba(0,0,0,0.5);
+}
+/* <!-- ---------call to action End---------- --> */
+
+
+/* .content-holder{
+    width: 100vh;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+} */
+
+/* .full-box{
+    background-color: aquamarine;
+    width: 400px;
+    display: flexbox;
+    margin-right: 100px;
+}
+
+.from-head-txt{
+    background-color: aqua;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    
+} */
+
+
+.content-holder{
+    display: flex;
+    width: 380px;
+    height: 520px;
+    justify-content: center;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    /* overflow: hidden; */
+}
+
+.from-head-txt{
+    font-family: "roboto";
+}
+
+.name input{
+    width: 180px;
+    height: 30px;
+    margin: 2px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0.3);
+    outline: none;
+    padding-left: 2px;
+}
+
+#mobile{
+    width: 370px;
+    height: 30px;
+    margin: 2px;
+    margin-bottom: 15px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0.3);
+    outline: none;
+    padding-left: 2px;
+}
+
+#password{
+    width: 370px;
+    height: 30px;
+    margin: 2px;
+    margin-bottom: 15px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0.3);
+    outline: none;
+    padding-left: 2px;
+}
+
+.drop-down{
+    margin: 2px;
+    margin-bottom: 15px;
+    outline: none;
+    overflow: hidden;
+}
+
+.drop-down p{
+    font-size: 0.8rem;
+    font-family: "roboto";
+    color: rgba(0,0,0,0.7);
+}
+
+.drop-down select{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0.3);
+    cursor: pointer;
+    outline: none;
+}
+
+#monthSelect{
+    margin-right: 30px;
+}
+
+#daySelect{
+    margin-right: 30px;
+}
+
+.radio-btn-holder p{
+    font-size: 0.8rem;
+    font-family: "roboto";
+    color: rgba(0,0,0,0.7);
+    display: flex;
+}
+
+.radio-btn{
+    margin: 2px;
+    margin-bottom: 15px;
+    outline: none;
+    overflow: hidden;
+    display: flex;
+}
+
+
+
+.radio-btn{
+    margin: 2px;
+    margin-bottom: 15px;
+    outline: none;
+    overflow: hidden;
+}
+
+.radio-btn div{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0.3);
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio-btn input{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#a101{
+    margin-left: 45px;
+}
+
+.l1{
+    margin-right: 30px;
+}
+.l2{
+    margin-right: 30px;
+}
+
+.bottom-txt{
+    font-size: 0.9rem;
+    font-family: "roboto";
+    color: rgba(0,0,0,0.7);
+}
+
+.bottom-txt p{
+    margin-top: 10px;
+}
+
+.bottom-txt a{
+    text-decoration: none;
+}
+
+.sing-up-button{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-family: "roboto";
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #00a400;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login a{
+    text-decoration: none;
+}
